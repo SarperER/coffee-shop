@@ -242,6 +242,18 @@ section{
    padding-bottom: 1rem;
 }
 
+.gallery .box-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit,30rem);
+   gap: 1.5rem;
+   justify-content: center;
+}
+
+.gallery .box-container img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
 
 
 
@@ -339,6 +351,10 @@ section{
    
    .heading h3{
       font-size: 3rem;
+   }
+
+   .heading img{
+      height: 3rem;
    }
 
    .about .content a {
