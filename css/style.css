@@ -88,6 +88,7 @@ section{
    top:0; left: 0; right: 0;
    box-shadow: var(--box-shadow);
    z-index: 1000;
+   background-color: var(--white);
 }
 
 .header .flex {
@@ -217,6 +218,29 @@ section{
    color: var(--light-color);
 }
 
+.menu .box-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit,30rem);
+   gap: 1.5rem;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.menu .box-container .box {
+   text-align: center;
+}
+
+.menu .box-container .box img {
+   width: 100%;
+   margin-bottom: 1rem;
+}
+
+.menu .box-container .box h3 {
+   font-size: 2rem;
+   color: var(--black);
+   font-family: 'Merienda One', cursive;
+   padding-bottom: 1rem;
+}
 
 
 
@@ -315,5 +339,9 @@ section{
    
    .heading h3{
       font-size: 3rem;
+   }
+
+   .about .content a {
+      justify-self: center;
    }
 }
