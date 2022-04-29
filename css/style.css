@@ -255,7 +255,29 @@ section{
    object-fit: cover;
 }
 
+.team .box-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit,30rem);
+   gap: 1.5rem;
+   justify-content: center;
+}
 
+.team .box-container .box {
+   text-align: center;
+}
+
+.team .box-container .box img {
+   width: 100%;
+   margin-bottom: 1rem;
+   border-radius: 5px;
+   margin-bottom: .5rem;
+}
+
+.team .box-container .box h3 {
+   font-size: 2rem;
+   font-family: 'Merienda One', cursive;
+   color: var(--black);
+}
 
 
 
